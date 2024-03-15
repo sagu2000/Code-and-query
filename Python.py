@@ -1,9 +1,9 @@
 class Coins: 
   def get change(self,x,y):
     change round((x-y)*100)
-    coins [100,50,25,10,5,1] #in paise #coins 11.0.50.0.25.0.10.0.05.0.011
+    coins = [100,50,25,10,5,1] #in paise #coins 11.0.50.0.25.0.10.0.05.0.011
 
-    change coins [0]*len(coins)
+    change_coins = [0]*len(coins)
 
     for i in range(len(coins)): 
        while change>= coins[i]:
